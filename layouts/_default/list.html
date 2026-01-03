@@ -1,0 +1,17 @@
+{{ define "main" }}
+{{- partial "header.html" . -}}
+<section class="section">
+  <div class="container">
+
+    <!-- Page title -->
+    <h1 class="title is-2">{{ .Title }}</h1>
+
+    <!-- Page content -->
+    <div class="content">
+      {{ .Content }}
+    </div>
+
+  </div>
+</section>
+{{ end }}
+

@@ -7,29 +7,28 @@ theme = 'hulga'
 [params]
 name = "JSON Alexander"
 
-
 # Pages, page links
 [[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 1
+  name = "Home"
+  pageRef = "/"
+  weight = 1
 
 [[menu.main]]
   name = "Application Development"
-  url = "/posts/"
+  pageRef = "/appdev"
   weight = 2
 
 [[menu.main]]
   name = "Cloud Infrastructure & DevOps"
-  url = "/posts/"
+  pageRef = "/cloud"
   weight = 3
 
 [[menu.main]]
   name = "Web Development"
-  url = "/posts/"
+  pageRef = "/webdev"
   weight = 4
 
 [[menu.main]]
   name = "CLI & Other Tooling"
-  url = "/posts/"
+  pageRef = "/cli"
   weight = 5
