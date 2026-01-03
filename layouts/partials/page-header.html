@@ -1,0 +1,12 @@
+<section class="section pb-0">
+  <div class="container">
+    <h1 class="title is-3">{{ .Title }}</h1>
+
+    {{ with .Params.subtitle }}
+      <p class="subtitle is-6 has-text-grey">
+        {{ . }}
+      </p>
+    {{ end }}
+  </div>
+</section>
+

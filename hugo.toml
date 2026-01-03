@@ -6,15 +6,19 @@ theme = 'hulga'
 
 [params]
 name = "JSON Alexander"
+keywords = "HTML, hugo, CSS"
+description = "Matthew McCabe's CV"
+copyright = "Copyright © 2026 Matthew McCabe. All rights reserved."
 
-  copyright = "Copyright © 2026 Matthew McCabe. All rights reserved."
+# change bulma's primary color
+# primaryColor = "#3e50b4"
+primaryColor = "#1d9bf0"
 
-  # enable prefers-color-scheme:dark, default false
-  darkMedia = true
+# change bulma's link color (secondary color in this theme)
+linkColor = "#0f172b"
 
-  # enable user to toggle dark mode with a menu, default false
-  darkToggle = true
-
+# subtitle on homepage
+subtitle = "Matthew McCabe"
 
 # Pages, page links
 [[menu.main]]

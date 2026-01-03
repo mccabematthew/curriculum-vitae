@@ -1,0 +1,12 @@
+{{ define "main" }}
+  {{ partial "page-header.html" . }}
+
+  <section class="section">
+    <div class="container">
+      {{ range .Pages }}
+        {{ partial "experience-card.html" . }}
+      {{ end }}
+    </div>
+  </section>
+{{ end }}
+

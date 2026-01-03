@@ -1,0 +1,19 @@
+{{ define "main" }}
+{{ partial "header.html" . }}
+<section class="section">
+    <div class="container content">
+      {{ .Content }}
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2 class="title is-4">Selected Experience</h2>
+
+      {{ range where site.RegularPages "Params.featured" true }}
+        {{ partial "experience-card.html" . }}
+      {{ end }}
+    </div>
+  </section>
+{{ end }}
+
