@@ -7,6 +7,15 @@ theme = 'hulga'
 [params]
 name = "JSON Alexander"
 
+  copyright = "Copyright © 2026 Matthew McCabe. All rights reserved."
+
+  # enable prefers-color-scheme:dark, default false
+  darkMedia = true
+
+  # enable user to toggle dark mode with a menu, default false
+  darkToggle = true
+
+
 # Pages, page links
 [[menu.main]]
   name = "Home"
