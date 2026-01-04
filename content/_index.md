@@ -3,16 +3,20 @@ title = "Matthew McCabe CV"
 type = "Home"
 +++
 
-#### 21110 Forest Waters Circle San Antonio, Texas | (210) 426-6193 | matthew.james.mccabe@outlook.com
+###### 21110 Forest Waters Circle San Antonio, Texas | (210) 426-6193 | matthew.james.mccabe@outlook.com
 
 ### Personal Statement
-Experienced engineer with over 5 years of experience designing and implementing software across multiple domains. Skilled in ... with advanced proficiency as a **dynamic, cross-functional engineer.**
+Experienced engineer with over 5 years of experience designing and implementing 
+software across multiple domains. Skilled in building and systems design first,
+with advanced proficiency as a **dynamic, cross-functional engineer.**
 
 ### Qualifications
 
+- **MSc in None, Jack of all trades** *Derek Zoolander Center for Kids Who Can't Read Good* | Expired 2021
+
 - **BSc in Data Science**
 *University of Texas at San Antonio* | August 2023 - May 2026 
-Capstone: "Hedge - Personal budgeting and dynamic portfolio forecasting" 
+<!--Capstone: "Hedge - Personal budgeting and dynamic portfolio forecasting" -->
 
 - **AS, Engineering**
 *Northeast Lakeview College* | August 2021 - May 2023
@@ -22,6 +26,18 @@ Capstone: "Hedge - Personal budgeting and dynamic portfolio forecasting"
 
 ---
 ### Core Competencies
+| Languages | Go, C, Bash, Python, SQL, Java, CSS3, HTML5 |
+| ------------- | ----------------------------------------- |
+
+| Cloud/AWS | EC2, S3, Lambda, VPC Familiarity, IAM, STS |
+| ------------- | ----------------------------------------- |
+
+| Infrastructure | Gitlab CI/CD, Terraform, Docker, Snowflake, RHEL 9 |
+| ------------- | ----------------------------------------- |
+
+| Dev Tools | GoReleaser, Artifactory, Github Actions, Git, Jira, qTest |
+| ------------- | ----------------------------------------- |
+
 
 <!--
 - **Bold** → `**Bold**` → **Bold**  
@@ -88,9 +104,6 @@ print(f"The sum is: {result}")
 ### 📢 Try It Now!
 
 Start writing Markdown at [Online Markdown Editor](https://onlinemarkdown.com) and boost your productivity today! 🚀
-
-
-
 
 - **Text Formatting**: Supports **bold**, *italic*, ~~strikethrough~~, <sup>superscript</sup>, and <sub>subscript</sub>  
 - **Lists**: Easily create **bullet lists** and **numbered lists**  
